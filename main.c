@@ -22,6 +22,13 @@ int main() {
     addStorageNode(&manager, 2);
     addStorageNode(&manager, 3);
 
+	// persist storege
+	for (int i = 0; i < manager.ring.count; i++) {
+    	int nodeId = manager.ring.nodes[i].nodeId;
+    	StorageNode* node = getNodeById(&manager, nodeId);
+    	loadFromFileWithIndex(node, nodeId, &index);
+	}
+
     int choice, key, nodeId;
     char value[100];
 
