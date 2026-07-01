@@ -6,8 +6,8 @@
 
 This project implements a **distributed key-value storage system simulation** using the C programming language. It demonstrates fundamental concepts of distributed systems such as:
 
-* Consistent Hashing for data distribution
-* Replication for fault tolerance
+* Consistent Hashing for data distribution.
+* Replication for fault tolerance.
 * Failover mechanisms for availability
 * Hybrid Data Structures (Trie + HashMap + Linked List)
 * File-based persistent storage
