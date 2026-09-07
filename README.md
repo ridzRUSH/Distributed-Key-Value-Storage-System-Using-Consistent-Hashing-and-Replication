@@ -42,7 +42,7 @@ The system follows a **modular architecture**:
   Uses efficient data structures for fast lookup
 
 * **Encryption Module**
-  Encrypts data before storage and decrypts on retrieval
+  Encrypts data before storage and decrypts on retrieval.
 
 ---
 
@@ -52,7 +52,7 @@ The system follows a **modular architecture**:
 
 * Maps keys to nodes in a circular hash space
 * Ensures minimal data movement when nodes change
-* Enables scalable distribution
+* Enables scalable distribution.
 
 ---
 
